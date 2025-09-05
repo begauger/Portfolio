@@ -11,7 +11,7 @@ export default function Navbar() {
           <li>
             <a
               href="#projects"
-              className="text-cartoonPink font-cartoon text-lg hover:text-cartoonYellow transition-colors"
+              className="text-cartoonPink font-cartoon text-lg transition-colors duration-200 hover:text-[#FFF700]"
             >
               Projects
             </a>
@@ -19,7 +19,7 @@ export default function Navbar() {
           <li>
             <a
               href="#experience"
-              className="text-cartoonPink font-cartoon text-lg hover:text-cartoonYellow transition-colors"
+              className="text-cartoonPink font-cartoon text-lg transition-colors duration-200 hover:text-[#FFF700]"
             >
               Experience
             </a>
@@ -27,7 +27,7 @@ export default function Navbar() {
           <li>
             <a
               href="#skills"
-              className="text-cartoonPink font-cartoon text-lg hover:text-cartoonYellow transition-colors"
+              className="text-cartoonPink font-cartoon text-lg transition-colors duration-200 hover:text-[#FFF700]"
             >
               Skills
             </a>
@@ -35,7 +35,7 @@ export default function Navbar() {
           <li>
             <a
               href="#contact"
-              className="text-cartoonPink font-cartoon text-lg hover:text-cartoonYellow transition-colors"
+              className="text-cartoonPink font-cartoon text-lg transition-colors duration-200 hover:text-[#FFF700]"
             >
               Contact
             </a>
