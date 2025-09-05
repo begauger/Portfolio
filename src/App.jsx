@@ -1,20 +1,28 @@
-import Navbar from './components/Navbar';
-import Skills from './components/Skills';
+    import Navbar from './components/Navbar';
+    import Skills from './components/Skills';
+    import profilePic from './assets/waterfall2.jpg'; // <-- Make sure to add your image here
 
-function App() {
-  return (
-    <div className="min-h-screen w-full flex flex-col bg-darkBg text-white font-display">
-      <Navbar />
+    function App() {
+      return (
+      <div className="min-h-screen w-full flex flex-col bg-darkBg text-white font-display">
+        <Navbar />
 
       <main className="w-full max-w-7xl mx-auto px-4 py-12 flex-1">
         {/* Hero Section */}
-        <section className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4 text-accentPurple">Welcome to My Portfolio</h2>
-          <p className="text-lg text-accentTeal">
-            Hi, I am <span className="text-accentTeal font-bold">Benjamin Gauger</span> and I have recently completed my education and certification in FullStack Software Development.<br />
-            I’m passionate about building modern web applications and eager to contribute my skills to a dynamic team!
-          </p>
-        </section>
+          <section className="flex items-center justify-start mb-12 min-h-[300px]">
+            <img
+            src={profilePic}
+            alt="Benjamin Gauger"
+            className="w-60 h-60 rounded-full border-8 border-accentPurple shadow-pop object-cover object-top mr-12"
+            />
+            <div>
+              <h2 className="text-6xl font-extrabold mb-4 text-accentPurple">Benjamin Gauger</h2>
+              <p className="text-2xl text-accentTeal">
+                I have recently completed my education and certification in FullStack Software Development.<br />
+                I’m passionate about building modern web applications and eager to contribute my skills to a dynamic team!
+              </p>
+            </div>
+          </section>
 
         {/* Projects Section */}
         <section id="projects" className="mb-12">
