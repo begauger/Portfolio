@@ -1,5 +1,6 @@
 import { FaUser, FaLaptopCode, FaServer, FaGraduationCap } from "react-icons/fa";
 
+
 export default function Skills() {
   return (
     <section id="skills" className="mb-12">
