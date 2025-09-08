@@ -15,7 +15,7 @@ export default function Projects() {
         <div className="bg-cardBg rounded-2xl p-6 border-2 border-accentPurple transition-transform transition-shadow duration-200 hover:shadow-pop hover:-translate-y-1 hover:border-[#FFF700]">
           <h4 className="font-bold text-xl text-accentTeal mb-2">Book CRUD App</h4>
           <p className="text-accentPurple mb-4">
-            A fullstack app to create, read, update, and delete books. Built with React, Node.js, and PostgreSQL.
+            A fullstack app to create, read, update, and delete books. Built with React, Pyton, Node.js, and SQlite.
           </p>
           <a
             href="https://github.com/begauger/Django-CRUD-Project"
@@ -49,12 +49,12 @@ export default function Projects() {
         </div>
         {/* Project 3 */}
         <div className="bg-cardBg rounded-2xl p-6 border-2 border-accentPurple transition-transform transition-shadow duration-200 hover:shadow-pop hover:-translate-y-1 hover:border-[#FFF700]">
-          <h4 className="font-bold text-xl text-accentTeal mb-2">AI Chatbot</h4>
+          <h4 className="font-bold text-xl text-accentTeal mb-2">Play2Learn</h4>
           <p className="text-accentPurple mb-4">
-            A simple Chatbot created using React. Try asking it a few questions and see how it responds to your questions!
+            An educational resource for people to learn math and reading in a fun games format! This site features calculator and anagram games.
           </p>
           <a
-            href="https://github.com/begauger/AI-Chatbot"
+            href="https://github.com/begauger/Play2Learn"
             target="_blank"
             rel="noopener noreferrer"
           >

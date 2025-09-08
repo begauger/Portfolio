@@ -44,8 +44,8 @@ export default function Contact() {
         </a>
         {/* LinkedIn */}
         <a
-          href="https://linkedin.com/in/yourprofile"
-          className="flex flex-col items-center group"
+          href="https://www.linkedin.com/in/benjamin-gauger-b5506020a"
+          className="flex flex-col items-center group relative"
           target="_blank"
           rel="noopener noreferrer"
         >
