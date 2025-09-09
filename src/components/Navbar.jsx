@@ -35,7 +35,7 @@ export default function Navbar() {
           <span className="block w-8 h-1 bg-cartoonPink rounded transition-all"></span>
         </button>
         {/* Nav Links */}
-        <ul className="hidden md:flex space-x-8">
+        <ul className="hidden md:flex space-x-8 items-center">
           {[
             { href: "#projects", label: "Projects" },
             { href: "#experience", label: "Experience" },
@@ -54,6 +54,16 @@ export default function Navbar() {
               </motion.a>
             </li>
           ))}
+          {/* Resume Button */}
+          <li>
+            <a
+              href="/bengaugerresume.pdf"
+              download
+              className="ml-4 px-5 py-2 rounded-lg font-extrabold text-lg bg-gradient-to-r from-accentPurple via-accentTeal to-accentPurple bg-clip-text text-transparent border-2 border-accentTeal hover:from-[#FFF700] hover:via-accentTeal hover:to-accentPurple hover:text-[#FFF700] transition-all duration-200"
+            >
+              Resume
+            </a>
+          </li>
         </ul>
       </nav>
       {/* Mobile Menu */}
@@ -76,6 +86,16 @@ export default function Navbar() {
                 </a>
               </li>
             ))}
+            {/* Resume Button for Mobile */}
+            <li>
+              <a
+                href="/bengaugerresume.pdf"
+                download
+                className="px-5 py-2 rounded-lg font-extrabold text-xl bg-gradient-to-r from-accentPurple via-accentTeal to-accentPurple bg-clip-text text-transparent border-2 border-accentTeal hover:from-[#FFF700] hover:via-accentTeal hover:to-accentPurple hover:text-[#FFF700] transition-all duration-200"
+              >
+                Resume
+              </a>
+            </li>
           </ul>
         </div>
       )}

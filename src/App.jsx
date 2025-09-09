@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Navbar from './components/Navbar';
+import Navbar from './components/navbar';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
@@ -19,7 +19,7 @@ function App() {
             className="text-3xl font-extrabold mb-2 text-white"
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2, duration: 0.7, type: "spring" }}
+            transition={{ delay: 0.5, duration: 0.9, type: "spring" }}
           >
             Hi, I'm
           </motion.h2>
@@ -29,7 +29,7 @@ function App() {
           style={{ WebkitTextStroke: '1px rgba(255,255,255,0.08)' }}
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.8, duration: 0.7, type: "spring" }}
+          transition={{ delay: 1.3, duration: 1.5, type: "spring" }}
         >
           <span style={{ paddingLeft: "15rem" }}>Benjamin Gauger</span>
           <span className="ml-4">
@@ -41,7 +41,7 @@ function App() {
             className="text-2xl text-accentTeal text-center max-w-2xl"
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 1.5, duration: 0.7, type: "spring" }}
+            transition={{ delay: 2.2, duration: 1.3, type: "spring" }}
           >
             Certified FullStack Software Developer.<br />
             I build modern, user-friendly web applications.<br />

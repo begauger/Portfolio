@@ -75,7 +75,7 @@ export default function Projects() {
             </p>
             <div className="w-16 h-1 bg-[#FFF700] rounded-full my-4 mx-auto" />
             <p className="text-accentPurple">
-            Coming Soon : Trading Card Website, E-commerce Site, Social Media App, and more!
+            Coming Soon : Trading Card Website, Podcast Website, Social Media App, and more!
             </p>
         </div>
         </div>
