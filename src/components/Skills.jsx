@@ -1,3 +1,4 @@
+// ...existing imports...
 import { useState } from "react";
 import { FaUser, FaLaptopCode, FaServer, FaGraduationCap, FaArrowRight } from "react-icons/fa";
 import profilePic from "../assets/waterfall2.jpg"; // Use your actual image
@@ -42,8 +43,7 @@ export default function Skills() {
               </div>
               {/* Back */}
               <div
-                className="absolute w-full h-full flex flex-col justify-center bg-cardBg rounded-2xl shadow-pop border-2 border-accentPurple text-left p-10
-                  max-h-80 overflow-y-auto md:max-h-none md:overflow-visible"
+                className="absolute w-full h-full flex flex-col justify-center bg-cardBg rounded-2xl shadow-pop border-2 border-accentPurple text-left p-10"
                 style={{
                   backfaceVisibility: "hidden",
                   transform: "rotateY(180deg)",
