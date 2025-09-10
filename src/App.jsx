@@ -5,7 +5,6 @@ import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
 import SpinningCube from './components/SpinningCube';
-import About from './components/About';
 
 function App() {
   return (
@@ -46,9 +45,6 @@ function App() {
             Let's make your dreams a reality!
           </motion.p>
         </section>
-
-        {/* About Section (mobile only) */}
-        <About />
 
         {/* Break Bar */}
         <div className="w-full h-1 bg-[#FFF700] rounded-full mb-12" />
