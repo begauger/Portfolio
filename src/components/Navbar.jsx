@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { motion } from "framer-motion";
 import logo from '../assets/logo.JPG'; // Update if needed
 
 export default function Navbar() {
