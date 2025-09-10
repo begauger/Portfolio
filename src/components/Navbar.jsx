@@ -1,6 +1,6 @@
 import { useState } from "react";
 import logo from '../assets/logo.JPG'; // Update if needed
-
+import { motion } from "framer-motion";
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
