@@ -23,17 +23,17 @@ function App() {
             Hi, I'm
           </motion.h2>
           <motion.h1
-            className="text-4xl sm:text-5xl md:text-7xl font-extrabold mb-4 bg-gradient-to-r from-accentPurple via-accentTeal to-accentPurple bg-clip-text text-transparent flex items-center gap-2 sm:gap-4"
-            style={{ WebkitTextStroke: '1px rgba(255,255,255,0.08)' }}
-            initial={{ opacity: 0, y: 40 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 1.3, duration: 1.5, type: "spring" }}
-          >
-            Benjamin&nbsp;Gauger
-            <span>
-              <SpinningCube />
-            </span>
-          </motion.h1>
+          className="text-4xl sm:text-5xl md:text-7xl font-extrabold mb-4 bg-gradient-to-r from-accentPurple via-accentTeal to-accentPurple bg-clip-text text-transparent flex items-center gap-2 sm:gap-4 text-left ml-80 sm:ml-0"
+          style={{ WebkitTextStroke: '1px rgba(255,255,255,0.08)' }}
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 1.3, duration: 1.5, type: "spring" }}
+        >
+          Benjamin&nbsp;Gauger
+          <span className="hidden sm:inline">
+            <SpinningCube />
+          </span>
+        </motion.h1>
           <motion.p
             className="text-2xl text-accentTeal text-center max-w-2xl"
             initial={{ opacity: 0, y: 40 }}
