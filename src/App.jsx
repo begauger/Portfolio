@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import Navbar from './components/Navbar';
 import Skills from './components/Skills';
@@ -6,6 +5,7 @@ import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
 import SpinningCube from './components/SpinningCube';
+import About from './components/About';
 
 function App() {
   return (
@@ -25,18 +25,18 @@ function App() {
             Hi, I'm
           </motion.h2>
           {/* Name + Cube */}
-             <motion.h1
-          className="text-7xl font-extrabold mb-4 bg-gradient-to-r from-accentPurple via-accentTeal to-accentPurple bg-clip-text text-transparent flex items-center gap-4"
-          style={{ WebkitTextStroke: '1px rgba(255,255,255,0.08)' }}
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 1.3, duration: 1.5, type: "spring" }}
-        >
-          <span style={{ paddingLeft: "15rem" }}>Benjamin Gauger</span>
-          <span className="ml-4">
-            <SpinningCube />
-          </span>
-            </motion.h1>
+          <motion.h1
+            className="text-7xl font-extrabold mb-4 bg-gradient-to-r from-accentPurple via-accentTeal to-accentPurple bg-clip-text text-transparent flex items-center gap-4"
+            style={{ WebkitTextStroke: '1px rgba(255,255,255,0.08)' }}
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 1.3, duration: 1.5, type: "spring" }}
+          >
+            <span style={{ paddingLeft: "15rem" }}>Benjamin Gauger</span>
+            <span className="ml-4">
+              <SpinningCube />
+            </span>
+          </motion.h1>
           {/* Tagline */}
           <motion.p
             className="text-2xl text-accentTeal text-center max-w-2xl"
@@ -50,6 +50,9 @@ function App() {
           </motion.p>
         </section>
         
+        {/* About Section */}
+        <About />
+
         {/* Break Bar */}
         <div className="w-full h-1 bg-[#FFF700] rounded-full mb-12" />
         
