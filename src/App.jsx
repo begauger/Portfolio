@@ -26,16 +26,18 @@ function App() {
           </motion.h2>
           {/* Name + Cube */}
              <motion.h1
-          className="text-7xl font-extrabold mb-4 bg-gradient-to-r from-accentPurple via-accentTeal to-accentPurple bg-clip-text text-transparent flex items-center gap-4"
-          style={{ WebkitTextStroke: '1px rgba(255,255,255,0.08)' }}
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 1.3, duration: 1.5, type: "spring" }}
-        >
-          <span style={{ paddingLeft: "15rem" }}>Benjamin Gauger</span>
-          <span className="ml-4">
-            <SpinningCube />
-          </span>
+              className="text-7xl font-extrabold mb-4 bg-gradient-to-r from-accentPurple via-accentTeal to-accentPurple bg-clip-text text-transparent flex items-center gap-4"
+              style={{ WebkitTextStroke: '1px rgba(255,255,255,0.08)' }}
+              initial={{ opacity: 0, y: 40 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 1.3, duration: 1.5, type: "spring" }}
+            >
+              <span className="-ml-32 sm:ml-0" style={{ display: "inline-block" }}>
+                Benjamin Gauger
+              </span>
+              <span className="ml-4">
+                <SpinningCube />
+              </span>
             </motion.h1>
           {/* Tagline */}
           <motion.p
