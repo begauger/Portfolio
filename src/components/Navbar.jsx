@@ -1,8 +1,17 @@
 import { useState } from "react";
-import logo from '../assets/logo.JPG'; // Update if needed
+import logo from '../assets/logo.JPG';
 import { motion } from "framer-motion";
+import { FaBars, FaTimes } from "react-icons/fa";
+
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const navLinks = [
+    { href: "#projects", label: "Projects" },
+    { href: "#experience", label: "Experience" },
+    { href: "#skills", label: "Skills" },
+    { href: "#contact", label: "Contact" },
+  ];
 
   return (
     <header className="fixed top-0 left-0 z-50 w-full backdrop-blur-md bg-[#22223b]/70 border-b-4 border-cartoonPink shadow-cartoon">
@@ -25,22 +34,19 @@ export default function Navbar() {
         </a>
         {/* Hamburger Icon */}
         <button
-          className="md:hidden flex flex-col justify-center items-center w-10 h-10"
+          className="md:hidden flex items-center justify-center w-10 h-10"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle menu"
         >
-          <span className="block w-8 h-1 bg-cartoonPink mb-1 rounded transition-all"></span>
-          <span className="block w-8 h-1 bg-cartoonPink mb-1 rounded transition-all"></span>
-          <span className="block w-8 h-1 bg-cartoonPink rounded transition-all"></span>
+          {menuOpen ? (
+            <FaTimes className="text-cartoonPink text-3xl" />
+          ) : (
+            <FaBars className="text-cartoonPink text-3xl" />
+          )}
         </button>
-        {/* Nav Links */}
+        {/* Desktop Nav Links */}
         <ul className="hidden md:flex space-x-8 items-center">
-          {[
-            { href: "#projects", label: "Projects" },
-            { href: "#experience", label: "Experience" },
-            { href: "#skills", label: "Skills" },
-            { href: "#contact", label: "Contact" },
-          ].map((item) => (
+          {navLinks.map((item) => (
             <li key={item.href}>
               <motion.a
                 href={item.href}
@@ -67,14 +73,9 @@ export default function Navbar() {
       </nav>
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="md:hidden bg-[#22223b]/95 border-b-4 border-cartoonPink shadow-cartoon">
+        <div className="md:hidden bg-[#22223b]/95 border-b-4 border-cartoonPink shadow-cartoon absolute top-16 left-0 w-full">
           <ul className="flex flex-col items-center py-4 space-y-4">
-            {[
-              { href: "#projects", label: "Projects" },
-              { href: "#experience", label: "Experience" },
-              { href: "#skills", label: "Skills" },
-              { href: "#contact", label: "Contact" },
-            ].map((item) => (
+            {navLinks.map((item) => (
               <li key={item.href}>
                 <a
                   href={item.href}
