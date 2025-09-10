@@ -13,9 +13,8 @@ function App() {
       <Navbar />
 
       <main className="w-full max-w-7xl mx-auto px-4 py-12 flex-1 pt-24">
-        {/* Dynamic Hero Section */}
+        {/* Hero Section */}
         <section id="hero" className="flex flex-col items-center justify-center mb-20 min-h-[350px]">
-          {/* Hi, I'm */}
           <motion.h2
             className="text-3xl font-extrabold mb-2 text-white"
             initial={{ opacity: 0, y: 40 }}
@@ -24,20 +23,18 @@ function App() {
           >
             Hi, I'm
           </motion.h2>
-          {/* Name + Cube */}
           <motion.h1
-            className="text-7xl font-extrabold mb-4 bg-gradient-to-r from-accentPurple via-accentTeal to-accentPurple bg-clip-text text-transparent flex items-center gap-4"
+            className="text-4xl sm:text-5xl md:text-7xl font-extrabold mb-4 bg-gradient-to-r from-accentPurple via-accentTeal to-accentPurple bg-clip-text text-transparent flex items-center gap-2 sm:gap-4"
             style={{ WebkitTextStroke: '1px rgba(255,255,255,0.08)' }}
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.3, duration: 1.5, type: "spring" }}
           >
-            <span style={{ paddingLeft: "15rem" }}>Benjamin Gauger</span>
-            <span className="ml-4">
+            Benjamin&nbsp;Gauger
+            <span>
               <SpinningCube />
             </span>
           </motion.h1>
-          {/* Tagline */}
           <motion.p
             className="text-2xl text-accentTeal text-center max-w-2xl"
             initial={{ opacity: 0, y: 40 }}
@@ -49,13 +46,13 @@ function App() {
             Let's make your dreams a reality!
           </motion.p>
         </section>
-        
-        {/* About Section */}
+
+        {/* About Section (mobile only) */}
         <About />
 
         {/* Break Bar */}
         <div className="w-full h-1 bg-[#FFF700] rounded-full mb-12" />
-        
+
         {/* Skills Section */}
         <Skills />
 
