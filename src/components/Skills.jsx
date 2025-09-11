@@ -59,7 +59,7 @@ export default function Skills() {
                   I’m Benjamin Gauger, a newly certified FullStack Software Developer. I was previously an elementary school teacher with four years of experience. 
                   I decided to take my love of teaching into the coding world and hope to mentor and teach others who decide to make a change in their life!
                   I love building modern, user-friendly web applications and am always eager to learn new skills. 
-                  My passion is to help others. I don't know what would be more rewarding than helping others build something of their dream 
+                  My passion is to help others. I don't know what would be more rewarding than helping others build something of their dream together!
                 </p>
                 <p className="text-lg text-accentPurple">
                   I can't WAIT to make your dreams become reality!
