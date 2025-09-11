@@ -1,7 +1,6 @@
-// ...existing imports...
 import { useState } from "react";
 import { FaUser, FaLaptopCode, FaServer, FaGraduationCap, FaArrowRight } from "react-icons/fa";
-import profilePic from "../assets/waterfall2.jpg"; // Use your actual image
+import profilePic from "../assets/waterfall2.jpg"; 
 
 export default function Skills() {
   const [flipped, setFlipped] = useState(false);
@@ -43,7 +42,8 @@ export default function Skills() {
               </div>
               {/* Back */}
               <div
-                className="absolute w-full h-full flex flex-col justify-center bg-cardBg rounded-2xl shadow-pop border-2 border-accentPurple text-left p-10"
+                className="absolute w-full h-full flex flex-col justify-center bg-cardBg rounded-2xl shadow-pop border-2 border-accentPurple text-left p-4 md:p-10
+                  max-h-[70vh] overflow-y-auto md:max-h-none md:overflow-visible"
                 style={{
                   backfaceVisibility: "hidden",
                   transform: "rotateY(180deg)",
@@ -59,7 +59,7 @@ export default function Skills() {
                   I’m Benjamin Gauger, a newly certified FullStack Software Developer. I was previously an elementary school teacher with four years of experience. 
                   I decided to take my love of teaching into the coding world and hope to mentor and teach others who decide to make a change in their life!
                   I love building modern, user-friendly web applications and am always eager to learn new skills. 
-                  My passion is to help others. I don't know what would be more rewarding than helping others build something of their dream together.
+                  My passion is to help others. I don't know what would be more rewarding than helping others build something of their dream 
                 </p>
                 <p className="text-lg text-accentPurple">
                   I can't WAIT to make your dreams become reality!
