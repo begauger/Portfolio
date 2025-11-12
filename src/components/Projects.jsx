@@ -1,7 +1,7 @@
 import project1Img from '../assets/CRUD.jpeg';
 import project2Img from '../assets/portfolio.png';
 import project3Img from '../assets/chatbot.jpg';
-import project4Img from '../assets/Flipping.png'; // Use your actual image file
+import project4Img from '../assets/end10.JPG'; // Use your actual image file
 
 export default function Projects() {
   return (
@@ -68,12 +68,12 @@ export default function Projects() {
         </div>
         {/* Project 4 */}
         <div className="bg-cardBg rounded-2xl p-4 border-2 border-accentTeal transition-transform transition-shadow duration-200 hover:shadow-pop hover:-translate-y-1 hover:border-[#FFF700]">
-          <h4 className="font-bold text-xl text-accentPurple mb-2">FlippingMagikarp Podcast Website</h4>
+          <h4 className="font-bold text-xl text-accentPurple mb-2">Trinity Virtual Tour</h4>
           <p className="text-accentTeal mb-4">
-            A podcast website built with Python/Django and React. Check out the social media pages! 
+            A virtual tour created using React of my home church and school! Click below to take the virtual tour! Thank you 
           </p>
           <a
-            href="https://github.com/begauger/Flipping-Magikarp-Podcast"
+            href="https://virtual-tour-trinity.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
