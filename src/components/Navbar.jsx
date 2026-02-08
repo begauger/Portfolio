@@ -62,7 +62,7 @@ export default function Navbar() {
           {/* Resume Button */}
           <li>
             <a
-              href="/benjamingaugerresume.pdf"
+              href="/FullStackResume.pdf"
               download
               className="ml-4 px-5 py-2 rounded-lg font-extrabold text-lg bg-gradient-to-r from-accentPurple via-accentTeal to-accentPurple bg-clip-text text-transparent border-2 border-accentTeal hover:from-[#FFF700] hover:via-accentTeal hover:to-accentPurple hover:text-[#FFF700] transition-all duration-200"
             >
