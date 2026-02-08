@@ -1,7 +1,7 @@
 import project1Img from '../assets/CRUD.jpeg';
-import project2Img from '../assets/portfolio.png';
-import project3Img from '../assets/chatbot.jpg';
-import project4Img from '../assets/end10.JPG'; // Use your actual image file
+import project2Img from '../assets/pkbrew.png'; // Add PKBrew screenshot
+import project3Img from '../assets/snshn.png'; // Add SNSHN screenshot
+import project4Img from '../assets/end10.JPG'; // Trinity Virtual Tour image
 
 export default function Projects() {
   return (
@@ -32,36 +32,36 @@ export default function Projects() {
         </div>
         {/* Project 2 */}
         <div className="bg-cardBg rounded-2xl p-4 border-2 border-accentTeal transition-transform transition-shadow duration-200 hover:shadow-pop hover:-translate-y-1 hover:border-[#FFF700]">
-          <h4 className="font-bold text-xl text-accentPurple mb-2">Portfolio Website</h4>
+          <h4 className="font-bold text-xl text-accentPurple mb-2">PKBrew</h4>
           <p className="text-accentTeal mb-4">
-            My personal portfolio built with React and Tailwind CSS, showcasing my projects and skills. Deplyed using Vercel!
+            A specialized coffee builder for people with PKU (Phenylketonuria). Helps users create delicious low-protein coffee recipes tailored to their dietary needs.
           </p>
           <a
-            href="https://github.com/begauger/Portfolio"
+            href="https://pkbrew.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src={project2Img}
-              alt="Portfolio Website"
+              alt="PKBrew"
               className="rounded-lg w-full h-28 object-cover border-2 border-[#FFF700] hover:scale-105 transition-transform duration-200 cursor-pointer"
             />
           </a>
         </div>
         {/* Project 3 */}
         <div className="bg-cardBg rounded-2xl p-4 border-2 border-accentPurple transition-transform transition-shadow duration-200 hover:shadow-pop hover:-translate-y-1 hover:border-[#FFF700]">
-          <h4 className="font-bold text-xl text-accentTeal mb-2">Play2Learn</h4>
+          <h4 className="font-bold text-xl text-accentTeal mb-2">SNSHN Real Estate</h4>
           <p className="text-accentPurple mb-4">
-            An educational resource for people to learn math and reading in a fun games format! This site features calculator and anagram games.
+            A modern real estate company website built with React. Features property listings, clean design, and intuitive navigation for home buyers and sellers.
           </p>
           <a
-            href="https://github.com/begauger/Play2Learn"
+            href="https://snshn-website.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src={project3Img}
-              alt="AI Chatbot"
+              alt="SNSHN Real Estate"
               className="rounded-lg w-full h-28 object-cover border-2 border-[#FFF700] hover:scale-105 transition-transform duration-200 cursor-pointer"
             />
           </a>
@@ -70,7 +70,7 @@ export default function Projects() {
         <div className="bg-cardBg rounded-2xl p-4 border-2 border-accentTeal transition-transform transition-shadow duration-200 hover:shadow-pop hover:-translate-y-1 hover:border-[#FFF700]">
           <h4 className="font-bold text-xl text-accentPurple mb-2">Trinity Virtual Tour</h4>
           <p className="text-accentTeal mb-4">
-            A virtual tour created using React of my home church and school! Click below to take the virtual tour! Thank you 
+            A virtual tour created using React of my home church and school! Click below to take the virtual tour! Thank you
           </p>
           <a
             href="https://virtual-tour-trinity.vercel.app/"
@@ -79,7 +79,7 @@ export default function Projects() {
           >
             <img
               src={project4Img}
-              alt="FlippingMagikarp Podcast Website"
+              alt="Trinity Virtual Tour"
               className="rounded-lg w-full h-28 object-cover border-2 border-[#FFF700] hover:scale-105 transition-transform duration-200 cursor-pointer"
             />
           </a>
@@ -95,7 +95,7 @@ export default function Projects() {
           </p>
           <div className="w-16 h-1 bg-[#FFF700] rounded-full my-4 mx-auto" />
           <p className="text-accentPurple">
-            Coming Soon : Trading Card Website, Podcast Website, Social Media App, and more!
+            Coming Soon: Trading Card Website, Podcast Website, Social Media App, and more!
           </p>
         </div>
       </div>
