@@ -34,7 +34,7 @@ export default function Projects() {
         <div className="bg-cardBg rounded-2xl p-4 border-2 border-accentTeal transition-transform transition-shadow duration-200 hover:shadow-pop hover:-translate-y-1 hover:border-[#FFF700]">
           <h4 className="font-bold text-xl text-accentPurple mb-2">PKBrew</h4>
           <p className="text-accentTeal mb-4">
-            A specialized coffee builder for people with PKU (Phenylketonuria). Helps users create delicious low-protein coffee recipes tailored to their dietary needs.
+            A specialized coffee builder for people with PKU (Phenylketonuria). Build your own Low-Pro Coffees today!
           </p>
           <a
             href="https://pkbrew.vercel.app/"
@@ -52,7 +52,7 @@ export default function Projects() {
         <div className="bg-cardBg rounded-2xl p-4 border-2 border-accentPurple transition-transform transition-shadow duration-200 hover:shadow-pop hover:-translate-y-1 hover:border-[#FFF700]">
           <h4 className="font-bold text-xl text-accentTeal mb-2">SNSHN Real Estate</h4>
           <p className="text-accentPurple mb-4">
-            A modern real estate company website built with React. Features property listings, clean design, and intuitive navigation for home buyers and sellers.
+            A modern real estate company website built with React, Implements AI tools, and backend mailing.
           </p>
           <a
             href="https://snshn-website.vercel.app/"
